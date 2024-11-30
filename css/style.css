@@ -1,0 +1,53 @@
+@font-face {
+  font-family: pa;
+  src: url(/fonts/Poppins-Regular0055.ttf);
+}
+
+* {
+  font-family: pa;
+  background-color: rgb(248, 248, 248);
+}
+
+.country-card {
+  font-size: 13px;
+  letter-spacing: 1px;
+  background-color: white;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  box-shadow: 0 1px 20px 0 rgba(53, 53, 53, 0.1);
+  border: none;
+  padding: 15px;
+  margin: 15px;
+  display: inline-block;
+  width: 160px;
+  text-align: center;
+}
+.country-card img {
+  width: 35%;
+  height: auto;
+}
+
+p {
+  background-color: white;
+}
+
+.pp {
+  letter-spacing: 0.1rem;
+  font-size: 13zpx;
+  background-color: rgb(248, 248, 248);
+}
+
+.titulo {
+  letter-spacing: 0.5rem;
+  font-size: 11px;
+  text-align: center;
+}
+
+.paises {
+  padding: 0 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
